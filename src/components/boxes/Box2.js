@@ -13,7 +13,7 @@ function Box2(props) {
             <Col className="box2" onClick={()=> setAge(age+1)}>
                 <Card>
                     <Card.Body>
-                        <Card.Title>{props.name}</Card.Title>
+                        <Card.Title>Name: {props.name}</Card.Title>
                         <Card.Subtitle className="mb-2 text-muted">I am {age} year{age===1 ? '' : 's'} old</Card.Subtitle>
                         <Card.Text>
                             The coolest color is <span style={{ color: props.color }}><strong>{props.color}</strong></span>!
